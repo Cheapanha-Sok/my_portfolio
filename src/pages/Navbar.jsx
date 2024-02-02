@@ -40,16 +40,9 @@ export default function Navbar() {
             <ul className="flex-row gap-5 text-xl hidden md:flex">
                 {Links.map((link) => (
                     <li key={link.name} className="hover hover:underline">
-                        <Link
-                            className="cursor-pointer uppercase"
-                            to={link.name}
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                        >
+                        <a href={`#${link.name}`} className="uppercase">
                             {link.name}
-                        </Link>
+                        </a>
                     </li>
                 ))}
             </ul>
