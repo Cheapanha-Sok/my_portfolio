@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Toggle({ Contents }) {
     return (
         <ul className='flex flex-col gap-1 p-2'>

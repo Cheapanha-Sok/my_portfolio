@@ -1,5 +1,8 @@
 import panha from "../assets/img/Panha.jpg"
 import CV from "../assets/pdf/Apply For intern Web.pdf"
+import ALink from "../shared/ALink"
+import gitHub from "../assets/svg/github.svg"
+import linkedin from "../assets/svg/linkedin.svg"
 
 
 export default function HeroSection() {
@@ -12,19 +15,30 @@ export default function HeroSection() {
                     className="object-cover w-full h-full"
                 />
             </div>
-            <div className='flex flex-col items-center gap-2'>
-                <p className='text-md font-bold text-gray-500'>
-                    Hello Im
-                </p>
-                <p className='text-3xl font-semibold'>Chea panhasok</p>
-                <p className='text-xl font-bold text-gray-500'>Software developer</p>
+            <div className='flex flex-col items-center gap-5'>
+                <div className="text-center space-y-2">
+                    <p className='text-md font-bold text-gray-500'>
+                        Hello Im
+                    </p>
+                    <p className='text-3xl font-semibold'>Chea panhasok</p>
+                    <p className='text-xl font-bold text-gray-500'>Software developer</p>
+                </div>
+
                 <div className='flex flex-row gap-5'>
-                    <a className="p-2 rounded-lg border-2" href={CV} download={`${"Panha"}_CV.pdf`}>
+                    <ALink href={CV} download={`${"Panha"}_CV.pdf`} style={true}>
                         Download CV
-                    </a>
-                    <a className="p-2 rounded-lg border-2" href='#contact'>
+                    </ALink>
+                    <ALink href='#contact' style={true}>
                         Contact info
-                    </a>
+                    </ALink>
+                </div>
+                <div className="flex flex-row gap-5">
+                    <ALink href="https://github.com/Cheapanha-Sok" newtab={true}>
+                        <img src={gitHub} alt="gitHub" className="h-10 w-10" />
+                    </ALink>
+                    <ALink href="https://www.linkedin.com/in/sok-cheapanha-0917802b0/" newtab={true}>
+                        <img src={linkedin} alt="linkedin" className="h-10 w-10" />
+                    </ALink>
                 </div>
             </div>
         </div>
