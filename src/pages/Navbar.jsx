@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-scroll";
 import Logo from "../assets/img/Logo.png";
 import menu from "../assets/svg/menu.svg"
 import closeBar from "../assets/svg/close.svg"
