@@ -21,7 +21,7 @@ export default function HeroSection() {
                         Hello Im
                     </p>
                     <p className='text-3xl font-semibold'>Chea panhasok</p>
-                    <p className='text-xl font-bold text-gray-500'>Software developer</p>
+                    <p className='text-xl font-bold text-gray-500'>Web Developer</p>
                 </div>
 
                 <div className='flex flex-row gap-5'>
