@@ -6,7 +6,7 @@ import ALink from "../shared/ALink"
 
 export default function Contact() {
     return (
-        <div id="contact" className='flex flex-col py-5 gap-5'>
+        <section id="contact" className='flex flex-col py-5 gap-5'>
             <div>
                 <p className='text-center text-md'>Get in Touch</p>
                 <p className='text-center text-4xl font-bold text-gray-400'>Contact Me</p>
@@ -31,7 +31,7 @@ export default function Contact() {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 

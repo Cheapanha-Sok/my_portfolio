@@ -1,15 +1,15 @@
-import Navbar from './pages/Navbar'
-import Footer from './pages/Footer'
-import HeroSection from './pages/HeroSection'
-import AboutMe from './pages/AboutMe'
-import Project from './pages/Project'
-import Contact from './pages/Contact'
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import  HeroSection  from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import Project from "./components/Project";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <main className="max-w-7xl mx-auto min-h-screen m-5 p-5 md:p-0 space-y-10">
+      <main className="max-w-7xl mx-auto min-h-screen space-y-10 p-5 md:p-0">
         <HeroSection />
         <AboutMe />
         <Project />

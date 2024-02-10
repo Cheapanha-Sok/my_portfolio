@@ -2,7 +2,7 @@ import ALink from "../shared/ALink";
 
 export default function Project() {
     return (
-        <div id='projects' className='flex flex-col py-5 gap-5'>
+        <section id='projects' className='flex flex-col py-5 gap-5'>
             <div>
                 <p className='text-center text-md'>The project I have create</p>
                 <p className='text-center text-4xl font-bold text-gray-400'>Project</p>
@@ -48,6 +48,6 @@ export default function Project() {
                     <ALink href="https://github.com/Cheapanha-Sok" newtab={true}>See more on Git hub</ALink>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -7,7 +7,7 @@ import linkedin from "../assets/svg/linkedin.svg"
 
 export default function HeroSection() {
     return (
-        <div className='flex flex-col md:flex-row justify-evenly items-center gap-5 md:gap-0 p-10'>
+        <section className='flex flex-col md:flex-row justify-evenly items-center gap-5 md:gap-0 md:h-screen'>
             <div className="w-40 h-40 md:w-96 md:h-96 rounded-full overflow-hidden">
                 <img
                     src={panha}
@@ -41,6 +41,6 @@ export default function HeroSection() {
                     </ALink>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

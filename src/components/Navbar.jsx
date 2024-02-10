@@ -21,7 +21,7 @@ export default function Navbar() {
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (navRef.current && !navRef.current.contains(event.target)) {
-                setClose(true);
+                setClose(false);
             }
         };
 
@@ -32,14 +32,14 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className="flex justify-between p-5 items-center">
+        <nav className="flex justify-between p-5 items-center" ref={navRef}>
             <div className="flex flex-row items-center gap-2">
                 <img src={Logo} alt="Logo" className="w-10 md:w-16" />
             </div>
             <ul className="flex-row gap-5 text-xl hidden md:flex">
                 {Links.map((link) => (
                     <li key={link.name} className="hover hover:underline">
-                        <a href={`#${link.name}`} className="uppercase">
+                        <a href={`#${link.name}`} className="capitalize">
                             {link.name}
                         </a>
                     </li>
