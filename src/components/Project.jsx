@@ -37,6 +37,11 @@ export default function Project() {
                             E-Library
                         </p>
                         <p>This project use react js for frontend and backend use firebase </p>
+                        <div className="space-y-1">
+                            <p className="font-bold">Test Account for Author : </p>
+                            <p>Email : author@gmail.com</p>
+                            <p>Password : pass123</p>
+                        </div>
                         <div className='flex flex-row gap-2 '>
                             <ALink style={true} href="https://tosan.vercel.app" newtab={true}>Live Demo</ALink>
                             <ALink style={true} href="https://github.com/Cheapanha-Sok/E-Library.git" newtab={true}>Git Hub</ALink>
