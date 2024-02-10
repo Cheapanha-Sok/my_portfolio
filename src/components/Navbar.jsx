@@ -32,19 +32,17 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className="flex justify-between p-5 items-center" ref={navRef}>
+        <header className="flex justify-between p-5 items-center" ref={navRef}>
             <div className="flex flex-row items-center gap-2">
                 <img src={Logo} alt="Logo" className="w-10 md:w-16" />
             </div>
-            <ul className="flex-row gap-5 text-xl hidden md:flex">
+            <nav className="flex-row gap-5 text-xl hidden md:flex">
                 {Links.map((link) => (
-                    <li key={link.name} className="hover hover:underline">
-                        <a href={`#${link.name}`} className="capitalize">
-                            {link.name}
-                        </a>
-                    </li>
+                    <a href={`#${link.name}`} className="capitalize" key={link.name}>
+                        {link.name}
+                    </a>
                 ))}
-            </ul>
+            </nav>
             <div className="block md:hidden">
                 {close ? <img src={closeBar} alt="closeBar" className="w-5 h-5" onClick={handleNav} /> : <img src={menu} alt="closeBar" className="w-5 h-5" onClick={handleNav} />}
 
@@ -52,6 +50,6 @@ export default function Navbar() {
             {close && <div className="absolute mx-2 my-16 right-0 top-0 w-[150px] text-sm shadow-xl ease-in-out duration-500 md:hidden rounded-lg">
                 <Toggle Contents={Links} />
             </div>}
-        </nav>
+        </header>
     );
 }

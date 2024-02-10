@@ -16,7 +16,7 @@ export default function AboutMe() {
           Thanks for taking the time to check out my portfolio!
         </div>
       </div>
-      <div className="hidden md:block md:w-[60%]">
+      <div className="hidden md:block md:w-[70%]">
         <img src={aboutMe} alt="aboutMe" />
       </div>
     </section>
