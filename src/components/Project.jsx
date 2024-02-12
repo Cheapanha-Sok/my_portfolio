@@ -58,7 +58,9 @@ export default function Project() {
                     <p className='text-lg font-bold'>
                         E-Library
                     </p>
-                    <p>This project aim to make an user easy to read book on internet without go to library , and this project also have 3 roles : user , author and admin . For admin role can manage all data in data in the system otherwise author role can manage their own data have been created.  </p>
+                    <p>This project aim to make an user easy to read book on internet without go to library , and this project also have 3 roles :
+                         user , author and admin . For admin role can manage
+                          all data in the system and author role can manage their own data have been created.  </p>
                     <div className="space-y-1">
                         <p className="font-bold">Test Account for Author</p>
                         <p>Email : author@gmail.com</p>
