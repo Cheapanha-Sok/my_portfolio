@@ -9,13 +9,14 @@ import javaFx1 from "../assets/img/javaFx1.png"
 import javaFx2 from "../assets/img/javaFx2.png"
 import mysql from "../assets/img/mysql.png"
 import java from "../assets/svg/java.svg"
+import secenceBuilder from "../assets/img/scencebuilder.jpg"
 import Tech from "./Tech";
 
 export default function Project() {
     const [isHovered, setIsHovered] = useState(false);
 
     const tosan = [react, tailwind, firebase];
-    const schoolmanagementsystem = [java, mysql];
+    const schoolmanagementsystem = [java, mysql, secenceBuilder];
 
     return (
         <section id='projects' className='flex flex-col py-5 gap-5 items-center'>
