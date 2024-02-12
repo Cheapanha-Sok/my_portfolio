@@ -8,12 +8,12 @@ export default function Project() {
 
     const images = [react, tailwind, firebase];
     return (
-        <section id='projects' className='flex flex-col py-5 gap-5'>
+        <section id='projects' className='flex flex-col py-5 gap-5 items-center'>
             <div>
                 <p className='text-center text-md'>The project I have create</p>
                 <p className='text-center text-4xl font-bold text-gray-400'>Project</p>
             </div>
-            <div className='grid grid-cols md:grid-cols-4 w-full gap-5'>
+            <div className='grid grid-cols md:grid-cols-3 w-full gap-5'>
                 <div className='flex flex-col border border-gray-800 rounded-xl'>
                     <div className='flex flex-col gap-5 p-5'>
                         <p className='text-lg font-bold'>
@@ -52,14 +52,12 @@ export default function Project() {
                             <ALink style={true} href="https://tosan.vercel.app" newtab={true}>Live Demo</ALink>
                             <ALink style={true} href="https://github.com/Cheapanha-Sok/E-Library.git" newtab={true}>Code</ALink>
                         </div>
-                        <Tech images={images}/>
+                        <Tech images={images} />
                     </div>
 
                 </div>
-                <div className='flex flex-col border border-gray-800 rounded-xl items-center justify-center'>
-                    <ALink href="https://github.com/Cheapanha-Sok" newtab={true}>See more on Git hub</ALink>
-                </div>
             </div>
+            <ALink href="https://github.com/Cheapanha-Sok" newtab={true}>See more on Git hub</ALink>
         </section>
     )
 }
