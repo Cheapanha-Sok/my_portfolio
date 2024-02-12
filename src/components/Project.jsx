@@ -29,7 +29,7 @@ export default function Project() {
                     <p className='text-lg font-bold'>
                         University Mangement System
                     </p>
-                    <p>This project aim to make an user easy to read book on internet without go to library , and this project also have 3 roles : user , author and admin . For admin role can manage all data in data in the system otherwise author role can manage their own data have been created.  </p>
+                    <p>The University Management System is a comprehensive solution designed to streamline administrative tasks within educational institutions. With a focus on simplicity and efficiency, this project allows users to perform CRUD operations, manage students and teachers, enroll students in departments, and much more.  </p>
                     <div>
                         <ALink style={true} href="https://github.com/Cheapanha-Sok/E-Library.git" newtab={true}>Code</ALink>
                     </div>
