@@ -10,3 +10,16 @@ html {
   padding: 0;
   margin: 0;
 }
+/* Define transition properties */
+.transition-all {
+  transition-property: all;
+}
+
+/* Define transition duration and easing */
+.duration-500 {
+  transition-duration: 0.5s;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
