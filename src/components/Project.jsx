@@ -39,7 +39,7 @@ export default function Project() {
                 <div className="hidden md:block transition-all duration-500 ease-in-out transform hover:scale-105">
                     <img
                         src={isHovered ? javaFx2 : javaFx1}
-                        alt="tosanImage"
+                        alt="javaImage"
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                     />
