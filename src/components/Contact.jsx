@@ -15,7 +15,7 @@ export default function Contact() {
             <div className='flex flex-col md:flex-row gap-5 md:gap-0 md:justify-evenly mx-auto p-5  border border-gray-800 rounded-xl w-full'>
                 <div className='flex flex-row gap-2 justify-center items-center'>
                     <img src={gmail} alt="gmialIcon" className='w-5 h-5' />
-                    <ALink href='mailto:panhachea476@gmail.com' newtab={true}>panhachea476@gmail.com</ALink>
+                    <ALink href='mailto:sokcheapanha11@gmail.com' newtab={true}>sokcheapanha11@gmail.com</ALink>
                 </div>
                 <div className='flex flex-row gap-2 justify-center items-center'>
                     <img src={linkedin} alt="gmialIcon" className='w-5 h-5' />
