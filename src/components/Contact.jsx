@@ -18,15 +18,15 @@ export default function Contact() {
                     <ALink href='mailto:sokcheapanha11@gmail.com' newtab={true}>sokcheapanha11@gmail.com</ALink>
                 </div>
                 <div className='flex flex-row gap-2 justify-center items-center'>
-                    <img src={linkedin} alt="gmialIcon" className='w-5 h-5' />
+                    <img src={linkedin} alt="linkedinIcon" className='w-5 h-5' />
                     <ALink href='https://www.linkedin.com/in/sok-cheapanha-0917802b0/' newtab={true}>Sok Cheapanha</ALink>
                 </div>
                 <div className='flex flex-row gap-2 justify-center items-center'>
-                    <img src={telegram} alt="gmialIcon" className='w-5 h-5' />
+                    <img src={telegram} alt="telegramIcon" className='w-5 h-5' />
                     <ALink href='https://t.me/CheapanhaSok' newtab={true} >CheapanhaSok</ALink>
                 </div>
                 <div className='flex flex-row gap-2 justify-center items-center'>
-                    <img src={phone} alt="gmialIcon" className='w-5 h-5' />
+                    <img src={phone} alt="phoneIcon" className='w-5 h-5' />
                     <ALink href='tel:061809946'>061809946</ALink>
                 </div>
 
