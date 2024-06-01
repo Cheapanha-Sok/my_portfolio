@@ -20,7 +20,7 @@ export default function HeroSection() {
                     <p className='text-md font-bold text-gray-500'>
                         Hello Im
                     </p>
-                    <p className='text-3xl font-semibold'>Chea panhasok</p>
+                    <p className='text-3xl font-semibold'>Sok Cheapanha</p>
                     <p className='text-xl font-bold text-gray-500'>Web Developer</p>
                 </div>
 
