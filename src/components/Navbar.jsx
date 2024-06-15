@@ -34,7 +34,7 @@ export default function Navbar() {
     return (
         <header className="flex justify-between p-5 items-center" ref={navRef}>
             <div className="flex flex-row items-center gap-2">
-                <img src={Logo} alt="Logo" className="w-10 md:w-16" />
+                <h1 className="capitalize text-xl fond-semibold">Sok Cheapanha</h1>
             </div>
             <nav className="flex-row gap-5 text-xl hidden md:flex">
                 {Links.map((link) => (
