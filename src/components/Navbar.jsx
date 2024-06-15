@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import Logo from "../assets/img/Logo.png";
 import menu from "../assets/svg/menu.svg"
 import closeBar from "../assets/svg/close.svg"
 import Toggle from "../shared/Toggle";
