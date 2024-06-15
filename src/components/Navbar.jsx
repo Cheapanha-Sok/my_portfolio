@@ -7,6 +7,7 @@ export default function Navbar() {
         { name: "projects" },
         { name: "contact" },
         { name: "about" },
+        { name: "experience" },
     ];
 
     const [close, setClose] = useState(false);
@@ -35,9 +36,9 @@ export default function Navbar() {
             <div className="flex flex-row items-center gap-2">
                 <h1 className="capitalize text-xl fond-semibold">Sok Cheapanha</h1>
             </div>
-            <nav className="flex-row gap-5 text-xl hidden md:flex">
+            <nav className="flex-row gap-5 text-xl hidden md:flex ">
                 {Links.map((link) => (
-                    <a href={`#${link.name}`} className="capitalize" key={link.name}>
+                    <a href={`#${link.name}`} className="uppercase" key={link.name}>
                         {link.name}
                     </a>
                 ))}
