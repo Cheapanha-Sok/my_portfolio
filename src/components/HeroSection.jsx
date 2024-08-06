@@ -21,13 +21,13 @@ export default function HeroSection() {
                         Hello Im
                     </p>
                     <p className='text-3xl font-semibold'>Sok Cheapanha</p>
-                    <p className='text-xl font-bold text-gray-500'>Web Developer</p>
+                    <p className='text-xl font-bold text-gray-500'>Software Enginner</p>
                 </div>
 
                 <div className='flex flex-row gap-5'>
-                    <ALink href={CV} download={`${"Panha"}_CV.pdf`} style={true}>
+                    {/* <ALink href={CV} download={`${"Panha"}_CV.pdf`} style={true}>
                         Download CV
-                    </ALink>
+                    </ALink> */}
                     <ALink href='#contact' style={true}>
                         Contact info
                     </ALink>

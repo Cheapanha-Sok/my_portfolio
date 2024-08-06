@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <section id="experience" className="flex flex-col py-5 gap-5 md:h-screen justify-center">
       <div>
-        <p className="text-center text-md">The Language I Used To</p>
+        <p className="text-center text-md">The Languages I Use</p>
         <p className="text-center text-4xl font-bold text-gray-400">
           Experience
         </p>
@@ -11,31 +11,36 @@ export default function Experience() {
         <div className="flex flex-col gap-2 bg-slate-100 p-5 rounded-lg">
           <h1 className="text-xl font-semibold">Programming</h1>
           <ul className="list-disc list-inside">
-            <li>C , C++ , Java , Kotlin</li>
+            <li>C, C++, Java, Kotlin</li>
             <li>Python</li>
             <li>JavaScript</li>
-            <li>Php</li>
+            <li>PHP</li>
           </ul>
         </div>
         <div className="flex flex-col gap-2 bg-slate-100 p-5 rounded-lg">
-          <h1 className="text-xl font-semibold">Framework</h1>
+          <h1 className="text-xl font-semibold">Frameworks</h1>
           <ul className="list-disc list-inside">
-            <li>SpringBoot</li>
+            <li>Spring Boot</li>
             <li>Laravel</li>
-            <li>React</li>
             <li>Tailwind</li>
-            <li>BootStrap</li>
+            <li>Bootstrap</li>
             <li>Flask</li>
           </ul>
+          <h1 className="text-xl font-semibold">Library</h1>
+          <ul className="list-disc list-inside">
+            <li>ReactJs</li>
+          </ul>
         </div>
         <div className="flex flex-col gap-2 bg-slate-100 p-5 rounded-lg">
-          <h1 className="text-xl font-semibold">Service</h1>
+          <h1 className="text-xl font-semibold">Services</h1>
           <ul className="list-disc list-inside">
             <li>Firebase</li>
-            <li>GraphApi</li>
-            <li>Nginx , Aws EC2</li>
-            <li>MySQL , PostgresSQL</li>
-            <li>QuartScheduler</li>
+            <li>Graph API</li>
+            <li>Nginx, AWS EC2</li>
+            <li>MySQL, PostgreSQL</li>
+            <li>Quartz Scheduler</li>
+            <li>Redis</li>
+            <li>Docker</li>
           </ul>
         </div>
       </div>
