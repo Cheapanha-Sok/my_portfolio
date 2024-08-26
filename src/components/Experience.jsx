@@ -7,8 +7,8 @@ export default function Experience() {
           Experience
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        <div className="flex flex-col gap-2 bg-slate-100 p-5 rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 ">
+        <div className="flex flex-col gap-2 p-5 rounded-lg border-2">
           <h1 className="text-xl font-semibold">Programming</h1>
           <ul className="list-disc list-inside">
             <li>C, C++, Java, Kotlin</li>
@@ -17,7 +17,7 @@ export default function Experience() {
             <li>PHP</li>
           </ul>
         </div>
-        <div className="flex flex-col gap-2 bg-slate-100 p-5 rounded-lg">
+        <div className="flex flex-col gap-2 p-5 rounded-lg border-2">
           <h1 className="text-xl font-semibold">Frameworks</h1>
           <ul className="list-disc list-inside">
             <li>Spring Boot</li>
@@ -31,7 +31,7 @@ export default function Experience() {
             <li>ReactJs</li>
           </ul>
         </div>
-        <div className="flex flex-col gap-2 bg-slate-100 p-5 rounded-lg">
+        <div className="flex flex-col gap-2 p-5 rounded-lg border-2">
           <h1 className="text-xl font-semibold">Services</h1>
           <ul className="list-disc list-inside">
             <li>Firebase</li>
