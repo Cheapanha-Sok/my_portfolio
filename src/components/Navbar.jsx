@@ -65,11 +65,11 @@ export default function Navbar({ toggleDarkTheme, isDarkMode }) {
             onClick={handleNav}
           />
         ) : (
-          <img src={menu} alt="menu" className="w-5 h-5" onClick={handleNav} />
+          <img src={menu} alt="menu" className={`w-5 h-5 ${isDarkMode ?"filter invert" : ""}`} onClick={handleNav} />
         )}
       </div>
       {close && (
-        <div className="absolute mx-2 my-16 right-0 top-0 w-[150px] text-sm shadow-xl ease-in-out duration-500 md:hidden rounded-lg bg-white dark:bg-gray-800">
+        <div className="absolute mx-2 my-16 right-0 top-0 w-[150px] text-sm shadow-xl ease-in-out duration-500 md:hidden rounded-lg border-2">
           <Toggle Contents={Links} />
 
         </div>

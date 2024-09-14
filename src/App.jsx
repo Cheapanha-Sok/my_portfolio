@@ -41,14 +41,13 @@ export default function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-    
       <Navbar toggleDarkTheme={toggleDarkTheme} isDarkMode={isDarkMode} />
       <main className="max-w-7xl mx-auto min-h-screen space-y-10 p-5 md:p-0">
-        <HeroSection />
+        <HeroSection isDarkMode={isDarkMode} />
         <AboutMe />
         <Experience />
         <Project />
-        <Contact />
+        <Contact isDarkMode={isDarkMode} />
       </main>
       <Footer />
     </ThemeProvider>

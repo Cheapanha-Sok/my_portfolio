@@ -3,7 +3,7 @@ import ALink from "../shared/ALink";
 import gitHub from "../assets/svg/github.svg";
 import linkedin from "../assets/svg/linkedin.svg";
 
-export default function HeroSection() {
+export default function HeroSection({isDarkMode}) {
   return (
     <section className="flex flex-col md:flex-row justify-evenly items-center gap-5 md:gap-0 md:h-screen">
       <div className="w-40 h-40 md:w-96 md:h-96 rounded-full overflow-hidden">
@@ -27,13 +27,13 @@ export default function HeroSection() {
         </div>
         <div className="flex flex-row gap-5">
           <ALink href="https://github.com/Cheapanha-Sok" newtab={true}>
-            <img src={gitHub} alt="gitHub" className="h-10 w-10" />
+            <img src={gitHub} alt="gitHub" className={`h-10 w-10 ${isDarkMode? "filter invert" : ""}`} />
           </ALink>
           <ALink
             href="https://www.linkedin.com/in/sok-cheapanha-0917802b0/"
             newtab={true}
           >
-            <img src={linkedin} alt="linkedin" className="h-10 w-10" />
+            <img src={linkedin} alt="linkedin" className={`h-10 w-10 ${isDarkMode? "filter invert" : ""}`} />
           </ALink>
           <div className="flex items-center gap-2"></div>
         </div>
